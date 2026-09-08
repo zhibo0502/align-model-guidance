@@ -1,0 +1,4 @@
+interface:
+  display_name: "官方模型指导对齐"
+  short_description: "逐项对齐官方模型指导，清理项目指令并交付可复核的真实覆盖率"
+  default_prompt: "使用 $align-model-guidance，按指定模型的当前官方指导逐项审查并调整本项目的 agent 文档、skills 和相关 prompt，以固定分母和证据报告覆盖率。"
